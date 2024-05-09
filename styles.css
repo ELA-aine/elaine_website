@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', Georgia;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(60, 60, 60, 0.7), rgba(10, 10, 10, 0.7)), url(photo/_ELA4400.png);
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+}
+
+.navbar{
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+
+nav{
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: azure;
+  font-size: 12px;
+}
+
+.row{
+  display: flex;
+  height: 88%;
+  align-items: center;
+}
+
+.col{
+  flex-basis: 50%;
+}
+
+h1{
+  color:rgb(255, 255, 255);
+  font-size: 100px;
+}
+
+p{
+  color:aliceblue;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.card{
+  width: 200px;
+  height:230px;
+  
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 24px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+  
+}
+
+.card1{
+  background-image: url(photo/IMG_9049\ copy.JPG);
+}
+
+.card2{
+  background-image: url(photo/_ELA4438.png);
+}
+
+.card3{
+  background-image: url(photo/DSC07710.jpg);
+}
+
+.card4{
+  background-image: url(photo/IMG_0513\ copy.JPG);
+}
+
+.card:hover{
+  transform: translateY(-10px);
+}
+
+h5 {
+  color:aliceblue;
+  text-shadow: 0 0 5px #999;
+}
+
+.card p{
+  text-shadow: 0 0 15px #000;
+  font-size: 8px;
+  margin-top: 5px;
+}
