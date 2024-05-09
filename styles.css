@@ -7,7 +7,7 @@
 .container {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(60, 60, 60, 0.7), rgba(10, 10, 10, 0.7)), url(photo/_ELA4400.jpeg);
+  background-image: linear-gradient(rgba(60, 60, 60, 0.7), rgba(10, 10, 10, 0.7)), url(photo/pic4.jpeg);
   background-position: center;
   background-size: cover;
   padding-left: 8%;
@@ -80,7 +80,7 @@ p{
 }
 
 .card2{
-  background-image: url(photo/_ELA4438.jpeg);
+  background-image: url(photo/pic1.jpeg);
 }
 
 .card3{
