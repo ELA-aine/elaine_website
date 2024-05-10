@@ -105,3 +105,28 @@ h5 {
   font-size: 8px;
   margin-top: 5px;
 }
+
+.btn{
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem 1.6rem;
+  border-radius: 3rem;
+  font-size: 1rem;
+  color: white;
+  border: 2px solid transparent;
+  letter-spacing: 0.2rem;
+  font-weight: 600;
+  box-shadow: 0 0 10px white;
+  transition: ease-in-out;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  transition: 0.3s ease-in-out;
+}
+
+.btn:hover{
+  border: 10px solid transparent;
+  box-shadow: 0 0 50px transparent,
+              0 0 100px white;
+}
+
